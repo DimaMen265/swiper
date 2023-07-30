@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+}
+
+.swiper {
+  width: 1094px;
+  height: 508px;
+}
+
+.swiper-slide {
+  background-color: #1f212d;
+  color: #f6f5ef;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  bottom: 50%;
+}
+
+.icons-arrow {
+  width: 18px;
+  height: 8px;
+  fill: black;
+}
