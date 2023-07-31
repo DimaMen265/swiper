@@ -18,13 +18,13 @@
 .wrapper {
   display: block;
   margin: 0 auto;
-  width: 1280px;
+  width: 375px;
   position: relative;
 }
 
 .swiper {
-  width: 1094px;
-  height: 508px;
+  width: 335px;
+  height: 469px;
 }
 
 .swiper-slide {
@@ -39,14 +39,66 @@
 .swiper-button-prev {
   display: flex;
   flex-direction: row-reverse;
-  left: 32px;
+  left: 134px;
 }
 
 .swiper-button-next {
-  right: 32px;
+  right: 134px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 493px;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
   visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+
+  .swiper {
+    width: 704px;
+    height: 508px;
+  }
+
+  .swiper-button-prev {
+    left: 326px;
+  }
+
+  .swiper-button-next {
+    right: 326px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 540px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    width: 1280px;
+  }
+
+  .swiper {
+    width: 1094px;
+  }
+
+  .swiper-button-prev {
+    left: 32px;
+  }
+
+  .swiper-button-next {
+    right: 32px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 50%;
+  }
 }
