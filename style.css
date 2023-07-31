@@ -37,9 +37,16 @@
 }
 
 .swiper-button-prev {
+  display: flex;
+  flex-direction: row-reverse;
   left: 32px;
 }
 
 .swiper-button-next {
   right: 32px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  visibility: hidden;
 }

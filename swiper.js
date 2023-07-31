@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper', {
     keyboard: true,
     
     autoplay: {
-      delay: 1000,
+      delay: 3000,
       disableOnInteraction: false, 
       },
       
