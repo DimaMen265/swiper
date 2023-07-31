@@ -19,17 +19,15 @@
   align-items: center;
 }
 
-/*  
-.swiper-button-prev,
-.swiper-button-next {
-  bottom: 50%;
-}
-*/
-
 .swiper-button-prev {
   left: 32px;
 }
 
 .swiper-button-next {
   right: 32px;
+}
+
+.swiper-pagination,
+.swiper-scrollbar {
+  visibility: hidden;
 }
