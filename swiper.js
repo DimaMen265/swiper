@@ -26,6 +26,7 @@
 //   },
 // });
 
+// Yacht Block
 
 function initSwiper(slidesPerView, spaceBetween, autoplayDelay) {
     return new Swiper('.swiper', {

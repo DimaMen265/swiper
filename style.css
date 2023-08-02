@@ -15,8 +15,9 @@
   outline-offset: 0;
 }
 
+/* Yacht Block */
+
 .wrapper {
-  display: block;
   margin: 0 auto;
   width: 375px;
   position: relative;
@@ -102,3 +103,5 @@
     top: 50%;
   }
 }
+
+/* Reviews Block */
